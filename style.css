@@ -1,4 +1,16 @@
 :root{
     --clr-primary: #1C212D;
     --clr-blue: #2B33F2;
+    
+
+    --fw-900: 80px;
+    --fw-800: 80px;
+    --fw-700: 70px;
+    --fw-600: 60px;
+    --fw-500: 50px;
+    --fw-400: 40px;
+    --fw-300: 30px;
+    --fw-200: 20px;
+
+
 }
