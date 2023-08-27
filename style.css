@@ -35,3 +35,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--ff-headers);
+}
+
+p {
+    font-family: var(--ff-text);
+}
