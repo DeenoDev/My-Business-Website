@@ -25,7 +25,13 @@
 
     --container-width: 74rem;
 
-    
+    /* Font-Family */
 
-
+    --ff-headers: 'Josefin Sans', sans-serif;
+    --ff-text: 'Inter', sans-serif;
 }
+
+ /* Google Fonts Imports */
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
