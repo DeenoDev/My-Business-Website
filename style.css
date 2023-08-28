@@ -59,7 +59,7 @@ header{
 }
 
 nav ul{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--ff-headers);
     list-style: none;
     display: flex;
@@ -72,4 +72,33 @@ nav ul{
     width: 90%;
     max-width: var(--container-width);
     margin-inline: auto;
+}
+
+
+/*Services Container */
+
+.services-container{
+    margin-inline: 0;
+}
+
+/*Technology Container */
+
+.technology-container{
+    margin-inline: 0;
+}
+
+/*Technology Container */
+
+.project-container{
+    margin-inline: 0;
+}
+
+/*Contact Section Container */
+
+.contact-section{
+    margin-inline: 0;
+}
+
+.footer{
+    margin-inline: 0;
 }
