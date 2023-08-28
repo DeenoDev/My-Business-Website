@@ -73,12 +73,31 @@ nav ul li{
     cursor: pointer;
 }
 
+/* Contact Buttons */
+
 nav ul li:last-child{
     background: #2B33F2;
-    padding-top: 0.30rem;
+    padding-top: 0.35rem;
     padding-inline: 1rem;
     border-radius: 20rem;
     
+}
+
+.contact-btn{
+    background: #2B33F2;
+    padding-top: 0.30rem;
+    padding-bottom: 0.30rem;
+    padding-inline: 1rem;
+    border-radius: 20rem;
+    text-decoration: none;
+    border: none;
+
+}
+
+.contact-btn a{
+    text-decoration: none;
+    font-family: var(--ff-headers);
+    color: #fff;
 }
 
 .container{
