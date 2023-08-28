@@ -104,6 +104,7 @@ nav ul li:last-child{
     width: 90%;
     max-width: var(--container-width);
     margin-inline: auto;
+    margin-block: 2rem;
 }
 
 
@@ -138,6 +139,7 @@ nav ul li:last-child{
 /* Hero Section */
 .hero-container{
     display: flex;
+    
 
 }
 
@@ -145,4 +147,11 @@ nav ul li:last-child{
     color: #fff;
     font-size: 60px;
     width: 50%;
+}
+
+.hero-text p{
+    color: #fff;
+    font-size: 20px;
+    width: 50%;
+
 }
