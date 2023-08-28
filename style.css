@@ -68,6 +68,10 @@ nav ul{
     color: #fff;
 }
 
+nav ul li{
+    cursor: pointer;
+}
+
 .container{
     width: 90%;
     max-width: var(--container-width);
