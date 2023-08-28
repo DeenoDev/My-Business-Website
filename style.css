@@ -134,3 +134,15 @@ nav ul li:last-child{
 .footer{
     margin-inline: 0;
 }
+
+/* Hero Section */
+.hero-container{
+    display: flex;
+
+}
+
+.hero-text h2{
+    color: #fff;
+    font-size: 60px;
+    width: 50%;
+}
