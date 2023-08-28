@@ -54,16 +54,22 @@ header{
 }
 
 .logo h3{
-    font-size:2.25rem;
+    font-size:2.5rem;
     color: #fff;
 }
 
 nav ul{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-family: var(--ff-headers);
     list-style: none;
     display: flex;
     justify-content: space-around;
     gap: 40px;
     color: #fff;
+}
+
+.container{
+    width: 90%;
+    max-width: var(--container-width);
+    margin-inline: auto;
 }
