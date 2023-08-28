@@ -64,12 +64,21 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 40px;
     color: #fff;
 }
 
 nav ul li{
     cursor: pointer;
+}
+
+nav ul li:last-child{
+    background: #2B33F2;
+    padding-top: 0.30rem;
+    padding-inline: 1rem;
+    border-radius: 20rem;
+    
 }
 
 .container{
