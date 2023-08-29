@@ -150,6 +150,15 @@ nav ul li:last-child{
 
 }
 
+.card p{
+    text-align: center;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    bottom: 0rem;
+    
+
+}
+
 
 
 /*Technology Container */
