@@ -117,7 +117,7 @@ nav ul li:last-child{
 
 .services-container{
     margin-inline: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 12rem;
     
 }
 
@@ -176,14 +176,22 @@ nav ul li:last-child{
 
 .technology-container{
     margin-inline: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 12rem;
 }
 
-/*Technology Container */
+.technology-container h3 {
+    text-align: center;
+}
+
+/*Project Container */
 
 .project-container{
     margin-inline: auto;
     margin-bottom: 5rem;
+}
+
+.project-container h3 {
+    text-align: center;
 }
 
 /*Contact Section Container */
@@ -191,6 +199,11 @@ nav ul li:last-child{
 .contact-section{
     margin-inline: auto;
     margin-bottom: 5rem;
+}
+
+.contact-section h3 {
+    text-align: center;
+    margin: 5rem;
 }
 
 .footer{
