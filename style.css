@@ -117,6 +117,7 @@ nav ul li:last-child{
 
 .services-container{
     margin-inline: auto;
+    margin-bottom: 5rem;
     
 }
 
@@ -124,18 +125,21 @@ nav ul li:last-child{
 
 .technology-container{
     margin-inline: auto;
+    margin-bottom: 5rem;
 }
 
 /*Technology Container */
 
 .project-container{
     margin-inline: auto;
+    margin-bottom: 5rem;
 }
 
 /*Contact Section Container */
 
 .contact-section{
     margin-inline: auto;
+    margin-bottom: 5rem;
 }
 
 .footer{
@@ -180,6 +184,7 @@ nav ul li:last-child{
 .about-container{
     display: flex;
     color: #fff;
+    margin-bottom: 5rem;
 
 }
 
