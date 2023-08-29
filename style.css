@@ -147,8 +147,7 @@ nav ul li:last-child{
     display: flex;
     margin-bottom: 8rem;
     margin-top: 5rem;
-    
-
+    justify-content: space-between;
 }
 
 .hero-text h2{
@@ -178,8 +177,21 @@ nav ul li:last-child{
    
 }
 
+.about-container{
+    display: flex;
+    color: #fff;
+
+}
+
+.about-intro{
+    font-size:1.5rem;
+    font-weight: var(--fw-200);
+
+}
+
 .about-container h3{
     font-size: 2.5rem;
+    font-weight: var(--fw-300);
     color: #fff;
    
 }
