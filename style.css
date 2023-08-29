@@ -138,6 +138,16 @@ nav ul li:last-child{
 .card {
     color: #fff;
     width: 300px;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    
+}
+
+.card h5 {
+    text-align: center;
+    
+
 }
 
 
