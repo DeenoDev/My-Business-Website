@@ -83,6 +83,10 @@ nav ul li:last-child{
     
 }
 
+.navbar{
+    margin-top: 2.2rem;
+}
+
 .contact-btn{
     background: #2B33F2;
     padding-top: 0.30rem;
@@ -151,6 +155,7 @@ nav ul li:last-child{
     color: #fff;
     font-size: 60px;
     width: 50%;
+    line-height: 1.2;
 }
 
 .hero-text p{
