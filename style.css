@@ -117,7 +117,7 @@ nav ul li:last-child{
 
 .services-container{
     margin-inline: 0;
-    margin
+    
 }
 
 /*Technology Container */
@@ -164,4 +164,22 @@ nav ul li:last-child{
     width: 50%;
     margin-bottom: 2rem;
 
+}
+
+.hero-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img{
+    display: inline-block;
+    width: 80%;
+   
+}
+
+.about-container h3{
+    font-size: 2.5rem;
+    color: #fff;
+   
 }
