@@ -148,21 +148,25 @@ nav ul li:last-child{
     text-align: center;
     font-size: var(--fs-300);
     padding: 0;
+    margin-block: 1rem;
     
 
 }
 
 .card p{
     text-align: center;
-    padding-inline: 2rem;
-    padding-block: 2rem;
+    padding-inline: 1rem;
+    padding-block: 0rem;
     bottom: 0rem;
     
 
 }
 
 .card img {
-    width: 100px;
+    width: 80px;
+    margin-inline: auto;
+    margin-top: 1rem;
+
 
 }
 
