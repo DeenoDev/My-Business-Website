@@ -123,6 +123,20 @@ nav ul li:last-child{
 
 .services-container h3 {
     text-align: center;
+    margin-bottom: 5rem;
+}
+
+.services-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 30%;
 }
 
 
