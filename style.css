@@ -121,6 +121,12 @@ nav ul li:last-child{
     
 }
 
+.services-container h3 {
+    text-align: center;
+}
+
+
+
 /*Technology Container */
 
 .technology-container{
@@ -149,7 +155,7 @@ nav ul li:last-child{
 /* Hero Section */
 .hero-container{
     display: flex;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
     margin-top: 5rem;
     justify-content: space-between;
 }
@@ -186,19 +192,15 @@ nav ul li:last-child{
     align-items: center;
     justify-content: space-between;
     color: #fff;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 
 }
 
 .about-text{
-    
     width: 50%;
 }
 
-.about-image{
-    
-    
-    
+.about-image{   
 }
 
 .about-intro{
