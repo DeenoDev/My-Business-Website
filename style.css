@@ -96,12 +96,13 @@ nav ul li:last-child{
 
 .contact-btn a{
     text-decoration: none;
+    font-size: 1.2rem;
     font-family: var(--ff-headers);
     color: #fff;
 }
 
 .container{
-    width: 90%;
+    width: 85%;
     max-width: var(--container-width);
     margin-inline: auto;
     margin-block: 2rem;
