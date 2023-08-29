@@ -105,7 +105,7 @@ nav ul li:last-child{
     width: 85%;
     max-width: var(--container-width);
     margin-inline: auto;
-    margin-block: 2rem;
+    /* margin-block: 2rem; */
 }
 
 
@@ -113,6 +113,7 @@ nav ul li:last-child{
 
 .services-container{
     margin-inline: 0;
+    margin
 }
 
 /*Technology Container */
@@ -140,6 +141,8 @@ nav ul li:last-child{
 /* Hero Section */
 .hero-container{
     display: flex;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
     
 
 }
@@ -154,5 +157,6 @@ nav ul li:last-child{
     color: #fff;
     font-size: 20px;
     width: 50%;
+    margin-bottom: 2rem;
 
 }
