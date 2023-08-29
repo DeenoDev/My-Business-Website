@@ -183,9 +183,15 @@ nav ul li:last-child{
 
 .about-container{
     display: flex;
+    align-items: center;
     color: #fff;
     margin-bottom: 5rem;
 
+}
+
+.about-text{
+    position: relative;
+    width: 50%;
 }
 
 .about-intro{
