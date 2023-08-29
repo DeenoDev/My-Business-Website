@@ -129,14 +129,15 @@ nav ul li:last-child{
 .services-grid{
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 7rem;
     align-items: center;
     justify-content: center;
     
 }
 
 .card {
-    width: 30%;
+    color: #fff;
+    width: 300px;
 }
 
 
