@@ -116,30 +116,30 @@ nav ul li:last-child{
 /*Services Container */
 
 .services-container{
-    margin-inline: 0;
+    margin-inline: auto;
     
 }
 
 /*Technology Container */
 
 .technology-container{
-    margin-inline: 0;
+    margin-inline: auto;
 }
 
 /*Technology Container */
 
 .project-container{
-    margin-inline: 0;
+    margin-inline: auto;
 }
 
 /*Contact Section Container */
 
 .contact-section{
-    margin-inline: 0;
+    margin-inline: auto;
 }
 
 .footer{
-    margin-inline: 0;
+    margin-inline: auto;
 }
 
 /* Hero Section */
