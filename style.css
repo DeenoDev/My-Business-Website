@@ -206,6 +206,11 @@ nav ul li:last-child{
     margin: 5rem;
 }
 
+form input,
+form label{
+    display: block;
+}
+
 .footer{
     margin-inline: auto;
 }
