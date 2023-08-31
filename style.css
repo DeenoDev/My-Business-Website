@@ -376,6 +376,14 @@ h3{
     margin-bottom: 6rem;
 }
 
+.newsletter-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
 .newsletter p {
     color: #fff;
     margin: 2rem;
