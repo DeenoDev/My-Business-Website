@@ -248,7 +248,7 @@ form input{
 .contact-block{
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -269,7 +269,7 @@ form input{
     gap: 6rem;
     grid-column-gap: 8rem;
     align-items: center;
-    justify-content: space-between ;
+    
 }
 
 @media(max-width: 62rem) {
@@ -299,6 +299,7 @@ form input{
 
 .footer p{
     padding: 1rem;
+    color: #fff;
 }
 
 /* Hero Section */
