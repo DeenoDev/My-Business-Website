@@ -246,8 +246,19 @@ form input{
 
 /* Contact Detail Block */
 .contact-block{
-    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.contact-block p {
+    margin: 0 !important;
+
+}
+
+.contact-block img{
+    width: 50px;
+    cursor: pointer;
 }
 
 .footer{
