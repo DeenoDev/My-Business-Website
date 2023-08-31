@@ -276,6 +276,19 @@ form input{
     .contact-details{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        grid-row-gap: 3rem;
+        grid-column-gap: 8rem;
+ 
+    }
+
+}
+
+@media(max-width: 39rem) {
+    .contact-details{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-gap: 1.8rem;
+        
  
     }
 
