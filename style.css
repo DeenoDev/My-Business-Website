@@ -278,23 +278,16 @@ form input{
         grid-template-rows: repeat(3, 1fr);
         grid-row-gap: 3rem;
         grid-column-gap: 8rem;
- 
     }
-
 }
 
 @media(max-width: 39rem) {
     .contact-details{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
-        grid-row-gap: 1.8rem;
-        
- 
+        grid-row-gap: 1.8rem;  
     }
-
 }
-    
-
 
 .footer{
     width: 100%;
@@ -379,6 +372,19 @@ h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
+}
+
+.newsletter p {
+    color: #fff;
+    margin: 2rem;
+}
+
+.newsletter input {
+    width: 400px;
+    height: 35px;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 2rem;
 }
 
