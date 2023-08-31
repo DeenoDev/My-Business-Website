@@ -226,6 +226,7 @@ form {
     justify-content: center;
     border: 1px solid #2B33F2;
     border-radius: 1.5rem;
+    background-color: #2B33F2;
     width: 500px;
     height: 500px;
     color: #fff;
@@ -235,6 +236,11 @@ form {
 form input,
 form label{
     display: block;
+    
+}
+
+form input{
+    margin-bottom: 2rem;
 }
 
 .footer{
