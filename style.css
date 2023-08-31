@@ -45,6 +45,7 @@ p {
 
 body{
     background-color: var(--clr-primary);
+    
 }
 
 header{
@@ -215,6 +216,7 @@ nav ul li:last-child{
 .contact-section p {
     text-align: center;
     margin-bottom: 3rem;
+    color: #fff;
 }
 
 form {
@@ -226,6 +228,8 @@ form {
     border-radius: 1.5rem;
     width: 500px;
     height: 500px;
+    color: #fff;
+    font-family: 'inter', sans-serif;
 }
 
 form input,
