@@ -304,6 +304,10 @@ form input{
     background-color: #2B33F2;
 }
 
+.footer p{
+    padding: 1rem;
+}
+
 /* Hero Section */
 .hero-container{
     display: flex;
