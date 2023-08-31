@@ -203,7 +203,7 @@ nav ul li:last-child{
     align-items: center;
     justify-content: center;
     margin-inline: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 
 
@@ -231,7 +231,7 @@ form {
     height: 500px;
     color: #fff;
     font-family: 'inter', sans-serif;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
 }
 
 form input,
