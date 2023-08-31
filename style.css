@@ -231,7 +231,7 @@ form {
     height: 500px;
     color: #fff;
     font-family: 'inter', sans-serif;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 
 form input,
@@ -247,6 +247,7 @@ form input{
 /* Contact Detail Block */
 .contact-block{
     display: flex;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
 }
@@ -257,8 +258,18 @@ form input{
 }
 
 .contact-block img{
-    width: 50px;
+    width: 40px;
     cursor: pointer;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 6rem;
+    grid-column-gap: 14rem;
+    align-items: center;
+    justify-content: space-between ;
 }
 
 .footer{
