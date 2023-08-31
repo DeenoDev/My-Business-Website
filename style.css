@@ -244,6 +244,12 @@ form input{
     margin-bottom: 2rem;
 }
 
+/* Contact Detail Block */
+.contact-block{
+    color: #fff;
+
+}
+
 .footer{
     margin-inline: auto;
 }
@@ -311,3 +317,4 @@ h3{
     color: #fff;
    
 }
+
