@@ -188,11 +188,26 @@ nav ul li:last-child{
 
 .project-container{
     margin-inline: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 12rem;
+    color: #fff;
 }
 
 .project-container h3 {
     text-align: center;
+}
+
+.project-card{
+    display: flex;
+}
+
+.project-card-text {
+    width: 50%;
+}
+
+.project-card-text h6 {
+    font-size: 1.7rem;
+    font-family: 'inter', sans-serif;
+
 }
 
 /*Contact Section Container */
