@@ -210,6 +210,10 @@ nav ul li:last-child{
 
 }
 
+.project-image-container {
+    width: 50%;
+}
+
 /*Contact Section Container */
 
 .contact-section{
