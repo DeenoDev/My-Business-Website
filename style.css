@@ -242,7 +242,7 @@ form {
     border: 1px solid #2B33F2;
     border-radius: 1.5rem;
     background-color: #2B33F2;
-    width: 500px;
+    width: 450px;
     height: 500px;
     color: #fff;
     font-family: 'inter', sans-serif;
@@ -255,8 +255,19 @@ form label{
     
 }
 
-form input{
-    margin-bottom: 2rem;
+form input,
+form textarea{
+    margin-bottom: 2rem; 
+    width: 100%;  
+}
+
+form textarea{
+    resize: none;
+
+}
+
+.input-container {
+    width: 300px;
 }
 
 /* Contact Detail Block */
@@ -281,7 +292,7 @@ form input{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 6rem;
+    gap: 3rem;
     grid-column-gap: 8rem;
     align-items: center;
     
@@ -414,9 +425,14 @@ h3{
     font-family: 'inter', sans-serif;
 }
 
+.newsletter input:focus {
+    border: none;
+
+}
+
 .newsletter button {
     position: relative;
-    left: -60px;
+    left: 10px;
     color: #fff;
     width: 7rem;
     border: none;
