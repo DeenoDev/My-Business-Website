@@ -311,16 +311,17 @@ form {
     border-radius: 1.5rem;
     background: rgb(2,0,36);
     background: rgb(182,33,254);
-    background: radial-gradient(circle, rgba(182,33,254,1) 0%, rgba(182,33,254,1) 38%, rgba(31,209,249,1) 100%);
-    width: 450px;
-    height: 500px;
+    background: radial-gradient(circle, rgba(182,33,254,.5) 0%, rgba(182,33,254,.5) 38%, rgba(31,209,249,.5) 100%);
+    width: 420px;
+    height: 530px;
     color: #fff;
     font-family: 'inter', sans-serif;
     margin-bottom: 7rem;
 }
 
 form input,
-form label{
+form label,
+form button{
     display: block;
     
 }
@@ -392,7 +393,7 @@ form textarea{
     margin-top: 3rem;
     text-align: center;
     background: rgb(182,33,254);
-    background: radial-gradient(circle, rgba(182,33,254,1) 0%, rgba(182,33,254,1) 38%, rgba(31,209,249,1) 100%);
+    background: radial-gradient(circle, rgba(182,33,254,.5) 0%, rgba(182,33,254,.5) 38%, rgba(31,209,249,.5) 100%);
 }
 
 .footer p{
