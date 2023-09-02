@@ -197,7 +197,15 @@ nav ul li:last-child{
     height: 300px;
     border: 2px solid #fff;
     border-radius: 1rem;
+    transition-duration: 500ms;
     
+    
+}
+
+.card:hover {
+    background: rgb(182,33,254);
+    background: radial-gradient(circle, rgba(182,33,254,1) 0%, rgba(182,33,254,1) 38%, rgba(31,209,249,1) 100%);
+    border: none;
 }
 
 .card h5 {
