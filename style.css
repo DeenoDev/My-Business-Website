@@ -490,7 +490,7 @@ h3{
 
 }
 
-.newsletter button {
+/* .newsletter button {
     position: relative;
     left: 10px;
     color: #fff;
@@ -501,8 +501,10 @@ h3{
     background:var(--clr-blue);
     font-family: 'inter', sans-serif;
     cursor: pointer;
-    
-    
+} */
+
+.newsletter button {
+    left: 10px;
 
 }
 
