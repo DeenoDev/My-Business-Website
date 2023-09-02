@@ -298,9 +298,11 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #2B33F2;
+    border: none;
     border-radius: 1.5rem;
-    background-color: #2B33F2;
+    background: rgb(2,0,36);
+    background: rgb(182,33,254);
+    background: radial-gradient(circle, rgba(182,33,254,1) 0%, rgba(182,33,254,1) 38%, rgba(31,209,249,1) 100%);
     width: 450px;
     height: 500px;
     color: #fff;
