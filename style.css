@@ -223,7 +223,11 @@ nav ul li:last-child{
     height: 300px;
     border: 1px solid #fff;
     border-radius: 1rem;
-    transition-duration: background: 500ms;
+    transition-duration: background 500ms;
+    box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);
+   -webkit-box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);
+   -moz-box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);
+
     
     
 }
