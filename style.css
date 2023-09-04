@@ -529,6 +529,16 @@ h3{
    
 }
 
+.h3-title::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 100px;
+    background: #fff;
+}
+
 /* Newsletter Section */
 
 .newsletter {
