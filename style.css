@@ -417,7 +417,10 @@ form textarea{
 
 
 .contact-block img:hover{
-    fill: radial-gradient(circle, rgba(182,33,254,.5) 0%, rgba(182,33,254,.5) 38%, rgba(31,209,249,.5) 100%);
+    box-shadow: 7px 11px 11px -1px rgba(3,3,3,0.81);
+-webkit-box-shadow: 7px 11px 11px -1px rgba(3,3,3,0.81);
+-moz-box-shadow: 7px 11px 11px -1px rgba(3,3,3,0.81);
+transition: all 0.3s;
 }
     
 
