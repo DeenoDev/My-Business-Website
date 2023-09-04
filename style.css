@@ -195,7 +195,7 @@ nav ul li:last-child{
     color: #fff;
     width: 300px;
     height: 300px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 1rem;
     transition-duration: background: 500ms;
     
@@ -358,7 +358,14 @@ form textarea{
 .contact-block img{
     width: 40px;
     cursor: pointer;
+    
 }
+
+
+.contact-block img:hover{
+    fill: radial-gradient(circle, rgba(182,33,254,.5) 0%, rgba(182,33,254,.5) 38%, rgba(31,209,249,.5) 100%);
+}
+    
 
 .contact-details {
     display: grid;
