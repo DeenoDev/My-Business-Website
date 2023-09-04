@@ -96,6 +96,13 @@ nav ul li:last-child{
     position: relative;
     color: #fff;
   }
+
+  .nav-link:hover {
+    box-shadow: -1px 18px 11px -1px rgba(3,3,3,0.7);
+   -webkit-box-shadow: -1px 18px 11px -1px rgba(3,3,3,0.7);
+   -moz-box-shadow: -1px 18px 11px -1px rgba(3,3,3,0.7);
+   transition: all 0.3s;
+  }
   
   .nav-link:after {
     content: '';
