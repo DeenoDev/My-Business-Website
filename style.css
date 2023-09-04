@@ -526,21 +526,23 @@ h3{
     font-size: 3rem;
     font-weight: var(--fw-300);
     color: #fff;
+    z-index: 10;
    
 }
 
 .h3-title::after {
     content: "";
-    display: inline-block;
     position: absolute;
     width: 250px;
-    height: 30px;
+    height: 22px;
     margin: auto;
+    margin-top: 38px;
     left: 0;
     right: 0;
+    z-index: -1;
     background: rgb(182,33,254);
-    background: radial-gradient(circle, rgba(182,33,254,.5) 0%, rgba(182,33,254,.5) 38%, rgba(31,209,249,.5) 100%);
-    border-radius: 10px;
+    background: radial-gradient(circle, rgba(182,33,254,1) 0%, rgba(182,33,254,1) 38%, rgba(31,209,249,1) 100%);
+    border-radius: 6px;
 
 }
 
