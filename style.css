@@ -533,10 +533,15 @@ h3{
     content: "";
     display: inline-block;
     position: absolute;
-    width: 100px;
-    height: 50px;
-    left: 100px;
-    background: #fff;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background: rgb(182,33,254);
+    background: radial-gradient(circle, rgba(182,33,254,.5) 0%, rgba(182,33,254,.5) 38%, rgba(31,209,249,.5) 100%);
+    border-radius: 10px;
+
 }
 
 /* Newsletter Section */
