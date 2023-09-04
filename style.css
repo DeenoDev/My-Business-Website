@@ -89,6 +89,32 @@ nav ul li:last-child{
     margin-top: 2.2rem;
 }
 
+/* nav links hover effect */
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+  }
+  
+  .nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(31,209,249,1) 0%, rgba(182,33,254,1) 52%, rgba(31,209,249,1) 100%);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 /* .contact-btn{
     background: #2B33F2;
     padding-top: 0.30rem;
