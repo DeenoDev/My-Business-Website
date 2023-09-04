@@ -543,6 +543,9 @@ h3{
     background: rgb(182,33,254);
     background: radial-gradient(circle, rgba(182,33,254,1) 0%, rgba(182,33,254,1) 38%, rgba(31,209,249,1) 100%);
     border-radius: 6px;
+    box-shadow: 11px 13px 11px -1px rgba(3,3,3,0.81);
+    -webkit-box-shadow: 11px 13px 11px -1px rgba(3,3,3,0.81);
+    -moz-box-shadow: 11px 13px 11px -1px rgba(3,3,3,0.81);
 
 }
 
