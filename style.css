@@ -538,7 +538,7 @@ transition: all 0.3s;
     left: -10px;
     
     z-index: -1;
-    
+    opacity: 0.5;
     background: rgb(182,33,254);
     background: radial-gradient(circle, rgba(182,33,254,1) 0%, rgba(182,33,254,1) 38%, rgba(31,209,249,1) 100%);
     border-radius: 6px;
@@ -567,6 +567,7 @@ h3{
     left: 0;
     right: 0;
     z-index: -1;
+    opacity: .5;
     background: rgb(182,33,254);
     background: radial-gradient(circle, rgba(182,33,254,1) 0%, rgba(182,33,254,1) 38%, rgba(31,209,249,1) 100%);
     border-radius: 6px;
