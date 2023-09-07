@@ -639,7 +639,7 @@ h3{
   }
 
   .slider > * {
-    width: 100%;
+    width: 30%;
     flex: 0 0 auto;
   }
 
