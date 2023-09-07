@@ -633,3 +633,13 @@ h3{
 
 }
 
+/* Technology Carousel Styling */
+.slider {
+    display: flex;
+  }
+
+  .slider > * {
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
