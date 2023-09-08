@@ -635,14 +635,14 @@ h3{
 
 /* Technology Carousel Styling */
 .tech-margin{
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .slider {
     display: flex;
     list-style: none;
     margin-top: 30px;
-    height: 150px;
+    height: 120px;
     
   }
 
