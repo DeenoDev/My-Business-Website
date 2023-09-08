@@ -635,18 +635,19 @@ h3{
 
 /* Technology Carousel Styling */
 .tech-margin{
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .slider {
     display: flex;
     list-style: none;
     margin-top: 30px;
+    height: 400px;
     
   }
 
   .slider > * {
-    width: 22%;
+    width: 25%;
     flex: 0 0 auto;
   }
 
@@ -660,6 +661,10 @@ h3{
   .tech-content p{
     color: #fff;
     font-family: var(--ff-text);
+  }
+
+  .tech-content img {
+    width: 80px;
   }
 
 
