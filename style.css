@@ -643,3 +643,7 @@ h3{
     flex: 0 0 auto;
   }
 
+  .slider ul {
+    list-style: none;
+  }
+
