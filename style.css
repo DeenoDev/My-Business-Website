@@ -636,6 +636,7 @@ h3{
 /* Technology Carousel Styling */
 .slider {
     display: flex;
+    list-style: none;
   }
 
   .slider > * {
@@ -643,7 +644,16 @@ h3{
     flex: 0 0 auto;
   }
 
-  .slider ul {
-    list-style: none;
+  .tech-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
+  .tech-content p{
+    color: #fff;
+    font-family: var(--ff-text);
+  }
+
 
