@@ -634,9 +634,15 @@ h3{
 }
 
 /* Technology Carousel Styling */
+.tech-margin{
+    margin-bottom: 100px;
+}
+
 .slider {
     display: flex;
     list-style: none;
+    margin-top: 30px;
+    
   }
 
   .slider > * {
