@@ -667,4 +667,8 @@ h3{
     width: 80px;
   }
 
+  .a11y-slider-autoplay {
+    display: none;
+  }
+
 
