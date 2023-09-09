@@ -312,6 +312,10 @@ nav ul li:last-child{
     color: #fff;
 }
 
+.project-margin{
+    margin-bottom: 8rem;
+}
+
 .project-container h3 {
     text-align: center;
 }
