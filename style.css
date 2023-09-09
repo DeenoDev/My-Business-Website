@@ -342,10 +342,21 @@ nav ul li:last-child{
 }
 
 .project-image-container {
+    position: relative;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Pseudo Elmenents for mockups */
+.img-right::after{
+    content:'';
+    display: inline-block;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #fff;
 }
 
 
