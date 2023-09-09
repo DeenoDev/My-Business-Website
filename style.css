@@ -332,7 +332,11 @@ nav ul li:last-child{
 
 .project-image-container {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /*Contact Section Container */
 
