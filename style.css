@@ -354,9 +354,11 @@ nav ul li:last-child{
     content:'';
     display: inline-block;
     position: absolute;
-    width: 600px;
-    height: 600px;
+    width: 50%;
+    height: 100%;
     background: #fff;
+    z-index: -1;
+    right: 0;
 }
 
 
