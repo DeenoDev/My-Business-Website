@@ -403,6 +403,14 @@ nav ul li:last-child{
 }
 
 
+/* particlesJS styling */
+#particles-js{
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}
+
+
 /*Contact Section Container */
 
 .contact-section{
