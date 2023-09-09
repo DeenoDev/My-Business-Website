@@ -322,6 +322,13 @@ nav ul li:last-child{
 
 .project-card{
     display: flex;
+    margin-bottom: 9rem;
+    gap: 10%;
+}
+
+.project-img{
+    width: 70%;
+    /* height: 40px; */
 }
 
 .project-card-text {
