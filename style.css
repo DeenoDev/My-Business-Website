@@ -407,8 +407,12 @@ nav ul li:last-child{
 #particles-js{
     position: absolute;
     top: 0;
-    z-index: -10;
+    height: 100vh;
+    z-index: -1;
+    
 }
+
+
 
 
 /*Contact Section Container */
@@ -584,6 +588,7 @@ transition: all 0.3s;
 }
 
 .about-container{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -597,6 +602,25 @@ transition: all 0.3s;
 }
 
 .about-image{   
+}
+
+.about-image::after{
+    content:'';
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background: rgb(31,209,249);
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    box-shadow: 20px 21px 5px -1px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 20px 21px 5px -1px rgba(0,0,0,0.84);
+    -moz-box-shadow: 20px 21px 5px -1px rgba(0,0,0,0.84);
+    opacity: 0.5;
+    border-radius: 12px;
+    z-index: -1;
+    right: 30px;
+    top: 0;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 
 .about-intro{
