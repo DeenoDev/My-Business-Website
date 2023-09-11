@@ -254,13 +254,13 @@ nav ul li:last-child{
     -moz-box-shadow: 42px 41px 11px -4px rgba(3,3,3,0.79);   
 }
 
-.card:hover > img {
+/* .card:hover > img {
     box-shadow: 9px 8px 11px -1px rgba(3,3,3,0.49);
     -webkit-box-shadow: 9px 8px 11px -1px rgba(3,3,3,0.49);
     -moz-box-shadow: 9px 8px 11px -1px rgba(3,3,3,0.49);
     transition: all 0.4s;
     
-}
+} */
 
 .card h5 {
     text-align: center;
@@ -687,7 +687,7 @@ h3{
 
 /* Newsletter Section */
 
-.newsletter {
+/* .newsletter {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -721,7 +721,7 @@ h3{
 .newsletter input:focus {
     border: none;
 
-}
+} */
 
 /* .newsletter button {
     position: relative;
