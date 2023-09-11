@@ -4,7 +4,7 @@ const slider = new A11YSlider(document.querySelector('.slider'), {
   arrows: false,
   infinite: true,
   autoplay: true,
-  autoplaySpeed: 1200,
+  autoplaySpeed: 1000,
   autoplayHoverPause: true,
   // responsive: {
   //   768: {
