@@ -231,19 +231,35 @@ nav ul li:last-child{
 }
 
 .card {
+    position: relative;
     color: #fff;
     width: 300px;
     height: 300px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     border-radius: 1rem;
     transition: all 0.25s;
     box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);
    -webkit-box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);
-   -moz-box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);
-
-    
-    
+   -moz-box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);   
 }
+
+.card::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    border-radius: 1rem; /*1*/
+    border: 10px solid transparent; /*2*/
+    background: linear-gradient(45deg,red,blue) border-box; /*3*/
+    -webkit-mask: /*4*/
+       linear-gradient(#fff 0 0) padding-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; /*5'*/
+            mask-composite: exclude; /*5*/
+            z-index: -1;
+  }
+
 
 .card:hover {
     background: rgb(31,209,249);
@@ -267,6 +283,7 @@ nav ul li:last-child{
     font-size: var(--fs-300);
     padding: 0;
     margin-block: 1rem;
+    
     
 
 }
