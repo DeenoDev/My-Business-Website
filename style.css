@@ -250,8 +250,8 @@ nav ul li:last-child{
     height: 300px;
     top: 0;
     border-radius: 1rem; /*1*/
-    border: 10px solid transparent; /*2*/
-    background: linear-gradient(45deg,red,blue) border-box; /*3*/
+    border: 5px solid transparent; /*2*/
+    background: linear-gradient(45deg,rgba(182,33,254,.8),rgba(31,209,249,0.8)) border-box; /*3*/
     -webkit-mask: /*4*/
        linear-gradient(#fff 0 0) padding-box, 
        linear-gradient(#fff 0 0);
@@ -268,6 +268,12 @@ nav ul li:last-child{
     box-shadow: 42px 41px 11px -4px rgba(3,3,3,0.79);
     -webkit-box-shadow: 42px 41px 11px -4px rgba(3,3,3,0.79);
     -moz-box-shadow: 42px 41px 11px -4px rgba(3,3,3,0.79);   
+}
+
+.card:hover:after{
+    background: linear-gradient(45deg,rgba(182,33,254,.5),rgba(31,209,249,0.5)) border-box;
+    border: transparent;
+
 }
 
 /* .card:hover > img {
