@@ -61,6 +61,21 @@ header{
     
 }
 
+/* Menu Toggle */
+.toggle{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: var(--primary-color) url(images/menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;    
+    z-index: 20;
+    cursor: pointer;
+}
+
 /* Mobile Navigation */
 .mobile-navigation{
     position: fixed;
@@ -68,7 +83,7 @@ header{
     left: 100%;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: var(--clr-primary);
     z-index: 150;
     display: flex;
     justify-content: center;
@@ -93,11 +108,12 @@ header{
     position: relative;
     list-style: none;
     text-align: center;
+
 }
 
 .mobile-navigation ul li a {
     font-size: 2.2rem;
-    color: #111;
+    color: #fff;
     text-decoration: none;
     font-weight: 300;
 
