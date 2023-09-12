@@ -80,18 +80,22 @@ header{
     left: 0;   
 }
 
-.navigation ul{
+.mobile-navigation ul{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
     
 }
 
-.navigation ul li{
+.mobile-navigation ul li{
     position: relative;
     list-style: none;
     text-align: center;
 }
 
-.navigation ul li a {
+.mobile-navigation ul li a {
     font-size: 2.2rem;
     color: #111;
     text-decoration: none;
@@ -99,11 +103,11 @@ header{
 
 }
 
-.navigation ul li a:hover{
+.mobile-navigation ul li a:hover{
     color: var(--primary-color);
 }
 
-.navigation .social {
+.mobile-navigation .social {
     position: absolute;
     top: 0;
     left: 0;
@@ -115,18 +119,18 @@ header{
 
 }
 
-.navigation .social a {
+.mobile-navigation .social a {
     display: inline-block;
     transform: scale(0.5);
 }
 
-.navigation .social a:hover{
+.mobile-navigation .social a:hover{
     transform:scale(1.2);
     transition: linear 0.2s;
     
 }
 
-.navigation .email-icon{
+.mobile-navigation .email-icon{
     position: absolute;
     bottom: 20px;
     transform: scale(0.5);
@@ -150,7 +154,7 @@ nav ul li{
 
 /* Contact Buttons */
 
-nav ul li:last-child{
+.desktop-nav ul li:last-child{
     /* background: #2B33F2; */
     padding-top: 0.35rem;
     padding-left: 2rem;
