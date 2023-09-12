@@ -76,6 +76,13 @@ header{
     cursor: pointer;
 }
 
+.toggle.active{
+    background: var(--primary-color) url(images/close.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
 /* Mobile Navigation */
 .mobile-navigation{
     position: fixed;
