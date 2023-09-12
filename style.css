@@ -76,6 +76,10 @@ header{
     transition: 250ms;
 }
 
+.navigation.active{
+    left: 0;   
+}
+
 
 nav ul{
     font-size: 1.2rem;
