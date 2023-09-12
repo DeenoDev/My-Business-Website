@@ -76,11 +76,63 @@ header{
     transition: 250ms;
 }
 
-.navigation.active{
+.mobile-navigation.active{
     left: 0;   
 }
 
+.navigation ul{
+    position: relative;
+    
+}
 
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+.navigation ul li a {
+    font-size: 2.2rem;
+    color: #111;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+.navigation ul li a:hover{
+    color: var(--primary-color);
+}
+
+.navigation .social {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation .social a {
+    display: inline-block;
+    transform: scale(0.5);
+}
+
+.navigation .social a:hover{
+    transform:scale(1.2);
+    transition: linear 0.2s;
+    
+}
+
+.navigation .email-icon{
+    position: absolute;
+    bottom: 20px;
+    transform: scale(0.5);
+}
+
+/* Desktop Mobile Navigation */
 nav ul{
     font-size: 1.2rem;
     font-family: var(--ff-headers);
