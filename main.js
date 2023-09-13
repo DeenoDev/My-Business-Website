@@ -28,10 +28,10 @@ particlesJS("particles-js", {"particles":{"number":{"value":47,"density":{"enabl
 
 
 //Menu Interactivity
-const toggle = document.querySelector('.toggle');
-const navigation = document.querySelector('.mobile-navigation');
+// const toggle = document.querySelector('.toggle');
+// const navigation = document.querySelector('.mobile-navigation');
 
-toggle.addEventListener('click', () => {
-  console.log('FUCKER!!!')
-})
+// toggle.addEventListener('click', () => {
+//   console.log('FUCKER!!!')
+// })
 
