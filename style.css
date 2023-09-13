@@ -109,7 +109,7 @@ header{
 
 .mobile-navigation ul{
     position: relative;
-    margin-top: 100px;
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -121,6 +121,7 @@ header{
     position: relative;
     list-style: none;
     text-align: center;
+    font-size: 2rem;
 
 }
 

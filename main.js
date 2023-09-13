@@ -32,9 +32,6 @@ const toggle = document.querySelector('.toggle');
 const navigation = document.querySelector('.mobile-navigation');
 
 toggle.addEventListener('click', () => {
-    toggle.classList.toggle('active');
-    navigation.classList.toggle('active');
+  console.log('FUCKER!!!')
 })
-
-
 
