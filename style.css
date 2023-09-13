@@ -45,6 +45,8 @@ p {
 
 body{
     background-color: var(--clr-primary);
+    overflow-x: hidden;
+    width: 100%;
     
 }
 
