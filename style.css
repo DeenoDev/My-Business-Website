@@ -43,6 +43,11 @@ p {
     font-family: var(--ff-text);
 }
 
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body{
     background-color: var(--clr-primary);
     overflow-x: hidden;
@@ -139,33 +144,8 @@ header{
     color: var(--primary-color);
 }
 
-.mobile-navigation .social {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.mobile-navigation .social a {
-    display: inline-block;
-    transform: scale(0.5);
-}
-
-.mobile-navigation .social a:hover{
-    transform:scale(1.2);
-    transition: linear 0.2s;
-    
-}
-
-.mobile-navigation .email-icon{
-    position: absolute;
-    bottom: 20px;
-    transform: scale(0.5);
+.mobile-nav-links ul {
+    padding-left: 0;
 }
 
 /* Desktop Mobile Navigation */
