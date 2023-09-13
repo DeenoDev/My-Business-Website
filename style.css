@@ -186,9 +186,13 @@ nav ul li{
     /* background: #2B33F2; */
     padding-top: 0.35rem;
     padding-left: 2rem;
-    border-radius: 20rem;
-    
-    
+    border-radius: 20rem;    
+}
+
+@media (max-width: 62rem) {
+    .desktop-nav {
+      display: none;
+    }
 }
 
 .navbar{
