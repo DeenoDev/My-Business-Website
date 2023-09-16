@@ -146,7 +146,15 @@ header{
 
 .mobile-nav-links ul {
     padding-left: 0;
+    height: 100%;
 }
+
+/* .mobile-nav-links {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 /* Desktop Mobile Navigation */
 nav ul{
@@ -523,6 +531,7 @@ nav ul li{
     position: absolute;
     top: 0;
     height: 100vh;
+    width: 100vw;
     z-index: -1;
     
 }
