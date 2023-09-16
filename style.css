@@ -435,6 +435,8 @@ nav ul li{
     color: #fff;
 }
 
+
+
 .project-margin{
     margin-bottom: 8rem;
 }
@@ -449,6 +451,13 @@ nav ul li{
     gap: 10%;
 }
 
+@media (max-width: 48rem){
+    .project-card{
+        flex-direction: column;   
+    }
+    
+}
+
 .project-img{
     width: 70%;
     cursor: pointer;
@@ -457,6 +466,14 @@ nav ul li{
 
 .project-card-text {
     width: 50%;
+}
+
+@media (max-width: 48rem){
+    .project-card-text {
+        width: 100%;
+        text-align: center;
+
+    }
 }
 
 .project-card-text h6 {
