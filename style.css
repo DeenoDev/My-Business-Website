@@ -723,8 +723,20 @@ transition: all 0.3s;
 
 }
 
+@media (max-width: 53rem ) {
+    .about-container{
+        flex-direction: column;
+    }   
+}
+
 .about-text{
     width: 50%;
+}
+
+@media (max-width: 53rem ){
+    .about-text{
+        width: 100%;
+    }
 }
 
 .about-image{   
