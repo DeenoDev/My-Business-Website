@@ -571,6 +571,15 @@ nav ul li{
     transition: all 0.2s;
 }
 
+@media (max-width: 48rem){
+    .img-left::after{
+        right: 0;
+        margin: auto;
+        width: 100%;
+        height: 60%;
+    }
+}
+
 .img-left:hover::after{
     box-shadow: 21px 41px 5px -1px rgba(0,0,0,0.92);
     -webkit-box-shadow: 21px 41px 5px -1px rgba(0,0,0,1);
