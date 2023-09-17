@@ -435,6 +435,12 @@ nav ul li{
     color: #fff;
 }
 
+@media (max-width: 48rem){
+    .project-container{
+        margin-bottom: 6rem;
+    }
+}
+
 
 
 .project-margin{
@@ -500,7 +506,8 @@ nav ul li{
 
 @media (max-width: 48rem){
     .project-card-text h6{
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
+        margin-top: 1rem;
     }
 }
 
