@@ -109,9 +109,6 @@ header{
     height: 100%;
     background-color: var(--clr-primary);
     z-index: 150;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
     transition: 250ms;
 }
 
@@ -198,20 +195,21 @@ nav ul li{
 
 /* nav links hover effect */
 
-.nav-link {
+.nav-link a {
     display: inline-block;
     position: relative;
     color: #fff;
+    text-decoration: none;
   }
 
-  .nav-link:hover {
+  .nav-link a:hover {
     box-shadow: -1px 18px 11px -1px rgba(3,3,3,0.7);
    -webkit-box-shadow: -1px 18px 11px -1px rgba(3,3,3,0.7);
    -moz-box-shadow: -1px 18px 11px -1px rgba(3,3,3,0.7);
    transition: all 0.3s;
   }
   
-  .nav-link:after {
+  .nav-link a:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -224,7 +222,7 @@ nav ul li{
     transition: transform 0.25s ease-out;
   }
   
-  .nav-link:hover:after {
+  .nav-link a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
