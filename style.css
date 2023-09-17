@@ -64,8 +64,13 @@ header{
 .logo h3{
     font-size:2.5rem;
     color: #fff;
-    text-shadow: 8px 5px 2px rgba(0,0,0,0.71);
-    
+    text-shadow: 8px 5px 2px rgba(0,0,0,0.71);    
+}
+
+@media(max-width: 48rem){
+    .logo h3 {
+        font-size:2rem;
+    }
 }
 
 /* Menu Toggle */
@@ -1037,6 +1042,18 @@ h3{
   .slider > * {
     width: 25%;
     flex: 0 0 auto;
+  }
+
+  @media (max-width: 48rem) {
+    .slider > * {
+        width: 33%; 
+    }
+  }
+
+  @media (max-width: 26rem) {
+    .slider > * {
+        width: 39%; 
+    }
   }
 
   .tech-content{
