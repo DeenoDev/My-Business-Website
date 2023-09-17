@@ -441,6 +441,12 @@ nav ul li{
     margin-bottom: 8rem;
 }
 
+@media (max-width: 48rem){
+    .project-margin{
+        margin-bottom: 2rem;
+    }
+}
+
 .project-container h3 {
     text-align: center;
 }
@@ -453,10 +459,19 @@ nav ul li{
 
 @media (max-width: 48rem){
     .project-card{
-        flex-direction: column;   
-    }
-    
+        flex-direction: column; 
+        margin-bottom: 2rem;  
+    }   
 }
+
+@media (max-width: 48rem){
+    .flex-reverse{
+        flex-direction: column-reverse;
+    }
+
+}
+
+
 
 .project-img{
     width: 70%;
@@ -472,6 +487,7 @@ nav ul li{
     .project-card-text {
         width: 100%;
         text-align: center;
+        margin-bottom: 2.2rem;
 
     }
 }
@@ -482,12 +498,24 @@ nav ul li{
 
 }
 
+@media (max-width: 48rem){
+    .project-card-text h6{
+        margin-bottom: 1rem;
+    }
+}
+
 .project-image-container {
     position: relative;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 48rem){
+    .project-image-container{
+        width: 100%;
+    }
 }
 
 /* Pseudo Elmenents for mockups */
