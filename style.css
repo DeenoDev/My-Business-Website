@@ -506,7 +506,7 @@ nav ul li{
 .project-card-text h6 {
     font-size: 1.7rem;
     font-family: 'inter', sans-serif;
-
+    margin-bottom: 0rem;
 }
 
 @media (max-width: 48rem){
