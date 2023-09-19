@@ -857,7 +857,7 @@ transition: all 0.3s;
 }
 
 #about{
-    /* scroll-margin-top: 8rem; */
+    scroll-margin-top: 8rem;
 }
 
 @media (max-width: 53rem ) {
