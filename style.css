@@ -671,6 +671,13 @@ form {
    -moz-box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);
 }
 
+@media (max-width: 30rem) {
+    form{
+        width: 100vw; 
+        border-radius: 0rem;
+    }
+}
+
 form input,
 form label,
 form button{
