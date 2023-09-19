@@ -351,6 +351,13 @@ nav ul li{
    -moz-box-shadow: 20px 16px 11px -4px rgba(3,3,3,0.63);   
 }
 
+/* @media (max-width: 48rem) {
+    .card{
+        width: 280px;
+        height: 280px;
+    }
+} */
+
 .card::after {
     content: "";
     position: absolute;
@@ -367,6 +374,13 @@ nav ul li{
             mask-composite: exclude; /*5*/
             z-index: -1;
   }
+
+  /* @media (max-width: 48rem) {
+    .card::after{
+        width: 280px;
+        height: 280px;
+    }
+  } */
 
 
 .card:hover {
@@ -428,7 +442,7 @@ nav ul li{
 
 .technology-container{
     margin-inline: auto;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 .technology-container h3 {
@@ -612,11 +626,6 @@ nav ul li{
     
 }
 
-
-
-
-
-
 /*Contact Section Container */
 
 .contact-section{
@@ -765,6 +774,7 @@ transition: all 0.3s;
 @media (max-width: 53rem ) {
     .hero-container{
        flex-direction: column;
+       margin-bottom: 5rem;
     } 
 }
 
@@ -859,6 +869,8 @@ transition: all 0.3s;
 #about{
     scroll-margin-top: 8rem;
 }
+
+
 
 @media (max-width: 48rem) {
     #about{
