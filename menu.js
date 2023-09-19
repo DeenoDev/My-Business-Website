@@ -5,3 +5,8 @@ function toggleMenu(){
     toggle.classList.toggle('active');
     navigation.classList.toggle('active');
 };
+
+function mobileRemoveActive(){
+    navigation.classList.remove('active');
+    toggle.classList.toggle('active');
+}
