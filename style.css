@@ -44,6 +44,7 @@ p {
 }
 
 html{
+    scroll-behavior: smooth;
     overflow-x: hidden;
     width: 100%;
 }
@@ -833,6 +834,7 @@ transition: all 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* width: 50%; */
 }
 
 .hero-image img{
