@@ -44,7 +44,7 @@ p {
 }
 
 html{
-    scroll-behavior:auto;
+    scroll-behavior: auto;
     overflow-x: hidden;
     width: 100%;
 }
@@ -1106,6 +1106,11 @@ h3{
 
   .a11y-slider-autoplay {
     display: none;
+  }
+
+  .hero-image iframe{
+    position: absolute;
+    
   }
 
 
