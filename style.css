@@ -524,6 +524,7 @@ nav ul li{
     font-size: 1.7rem;
     font-family: 'inter', sans-serif;
     margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
 @media (max-width: 48rem){
