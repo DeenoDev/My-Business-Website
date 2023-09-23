@@ -511,6 +511,10 @@ nav ul li{
     width: 50%;
 }
 
+.project-description{
+    font-weight: 600;
+}
+
 @media (max-width: 48rem){
     .project-card-text {
         width: 100%;
