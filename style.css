@@ -554,7 +554,13 @@ nav ul li{
 
 .description{
     margin-bottom: 1.2rem;
-    text-align: center;
+    text-align: start;
+}
+
+@media (max-width: 48rem){
+    .description{
+        text-align: center; 
+}
 }
 
 /* Pseudo Elmenents for mockups */
