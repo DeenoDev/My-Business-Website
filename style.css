@@ -807,6 +807,7 @@ transition: all 0.3s;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 @media (max-width: 53rem){
@@ -823,8 +824,9 @@ transition: all 0.3s;
 .hero-text h2{
     color: #fff;
     font-size: 60px;
-    width: 50%;
+    width: 100%;
     line-height: 1.2;
+    text-align: center;
 }
 
 @media (max-width: 53rem ){
