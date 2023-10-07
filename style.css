@@ -852,7 +852,8 @@ transition: all 0.3s;
 .hero-text p{
     color: #fff;
     font-size: 20px;
-    width: 50%;
+    width: 100%;
+    text-align: center;
     margin-bottom: 2rem;
 
 }
