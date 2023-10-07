@@ -805,6 +805,8 @@ transition: all 0.3s;
 .hero-text{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 53rem){
