@@ -362,6 +362,7 @@ nav ul li{
     -webkit-mask-composite: xor; /*5'*/
             mask-composite: exclude; /*5*/
             z-index: -1;
+            transition: all 0.25s;
   }
 
   /* @media (max-width: 48rem) {
@@ -379,6 +380,7 @@ nav ul li{
     box-shadow: 42px 41px 11px -4px rgba(3,3,3,0.79);
     -webkit-box-shadow: 42px 41px 11px -4px rgba(3,3,3,0.79);
     -moz-box-shadow: 42px 41px 11px -4px rgba(3,3,3,0.79);   
+    transition: all 0.2s;
 }
 
 .card:hover:after{
