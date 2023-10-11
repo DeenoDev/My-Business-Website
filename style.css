@@ -232,17 +232,6 @@ nav ul li{
     transform-origin: bottom left;
   }
 
-/* .contact-btn{
-    background: #2B33F2;
-    padding-top: 0.30rem;
-    padding-bottom: 0.30rem;
-    padding-inline: 1rem;
-    border-radius: 20rem;
-    text-decoration: none;
-    border: none;
-
-} */
-
 .contact-btn {
     width: 130px;
     height: 40px;
@@ -673,6 +662,7 @@ nav ul li{
     margin-bottom: 3rem;
     margin-top: 20px;
     color: #fff;
+    opacity: 0.8;
 }
 
 form {
