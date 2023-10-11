@@ -984,7 +984,12 @@ transition: all 0.3s;
 .about-intro{
     font-size:1.3rem;
     font-weight: var(--fw-200);
+    opacity: 0.9;
 
+}
+
+.about-description{
+    opacity: 0.8 !important;
 }
 
 .h3-about{
