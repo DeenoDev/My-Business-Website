@@ -832,6 +832,7 @@ transition: all 0.3s;
     width: 100%;
     line-height: 1.2;
     text-align: center;
+    opacity: 0.9;
 }
 
 @media (max-width: 53rem ){
@@ -886,6 +887,7 @@ transition: all 0.3s;
 
 .hero-span{
     background: -webkit-linear-gradient(rgba(182,33,254,1), rgba(31,209,249,1));
+    opacity: 1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
