@@ -793,7 +793,7 @@ transition: all 0.3s;
     align-items: center;
     height: 100%;
     margin-bottom: 14rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 @media (max-width: 53rem ) {
