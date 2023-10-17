@@ -808,7 +808,7 @@ transition: all 0.3s;
        align-items: center;
        justify-content: center;
        height: 100vh;
-       margin-bottom: 5rem;
+       margin-bottom: 0rem;
        margin-top: -5rem;
     } 
 }
