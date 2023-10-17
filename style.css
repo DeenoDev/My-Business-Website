@@ -198,6 +198,12 @@ nav ul li{
     margin-top: 2.2rem;
 }
 
+@media (max-width: 48rem){
+    .navbar{
+        margin-top: 1rem;
+    }
+}
+
 /* nav links hover effect */
 
 .nav-link a {
