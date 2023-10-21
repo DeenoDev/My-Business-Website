@@ -310,7 +310,7 @@
                         <label for="message">Message</label>
                         <textarea name="message" placeholder="I am interested in your services" id="message" cols="30" rows="7" required></textarea>  
                     </div>
-                    <button class="contact-btn btn-9" type="submit" onclick="window.location.href='#contact';"><a href="#contact">Send</a></button>
+                    <button class="contact-btn btn-9" type="submit" name="submit" onclick="window.location.href='#contact';"><a href="#contact">Send</a></button>
                 </form>
 
                 <div class="contact-info-section">

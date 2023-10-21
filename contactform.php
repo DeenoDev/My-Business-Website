@@ -9,8 +9,6 @@ if(isset($_POST['submit'])){
     $headers = "From: ".$mailFrom;
     $txt = "You have recieved an email from ".$name.".\n\n".$message;
 
-
     mail($mailTo, $email, $txt, $headers);
     header("Location: index.php?mailsend");
-
 }
