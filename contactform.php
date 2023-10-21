@@ -10,5 +10,5 @@ if(isset($_POST['submit'])){
     $txt = "You have recieved an email from ".$name.".\n\n".$message;
 
 
-    mail();
+    mail($mailTo, $email, $txt, $headers);
 }
