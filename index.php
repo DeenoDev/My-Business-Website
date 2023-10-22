@@ -1,9 +1,14 @@
 <?php
 
 if(isset($_POST['email']) && $_POST['email'] != '') {
-    //submit the form
+   
+    if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+        
+    }
+    
+//submit the form
 
-    $userName = $_POST['name'];
+$userName = $_POST['name'];
 $userEmail = $_POST['email'];
 $message = $_POST['message'];
 
