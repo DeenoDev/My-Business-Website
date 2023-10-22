@@ -331,19 +331,18 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
             <!-- Contact Us Section -->
             <div id="contact" class="contact-section container">
-
-            <?php
-              if(message_sent);
-            ?>
-               <p>Thanks, we'll be in touch</p>
-            <?php
-            ?>
-
                 <div data-aos="fade-up" class="contact-header">
                     <h3 class="h3-title">Contact Us</h3>
                     <p>Send us a message to get started on your next project.<br>We look forward to working with you.</p>
                 </div>
 
+                <?php
+              if(message_sent);
+            ?>
+               <p>Thanks, we'll be in touch</p>
+            <?php
+            else: 
+            ?>
 
                 <form data-aos="fade-up" action="index.php" method="post">
                     <div class="input-container">
@@ -354,8 +353,11 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                         <label for="message">Message</label>
                         <textarea name="message" placeholder="I am interested in your services" id="message" cols="30" rows="7" required></textarea>  
                     </div>
-                    <button class="contact-btn btn-9" type="submit" name="submit" onclick="window.location.href='#contact';"><a href="#contact">Send</a></button>
+                    <button class="contact-btn btn-9" type="submit" name="submit"><a href="">Send</a></button>
                 </form>
+            <?php
+            endif;
+            ?>
 
                 <div class="contact-info-section">
                     <div class="contact-details">
