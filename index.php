@@ -1,26 +1,31 @@
 <?php
 
+$message_sent = false;
+
 if(isset($_POST['email']) && $_POST['email'] != '') {
    
     if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-        
+      
+        //submit the form
+
+       $userName = $_POST['name'];
+       $userEmail = $_POST['email'];
+       $message = $_POST['message'];
+
+
+       $to = "deyanoklaasen@outlook.com";
+       $body = "";
+
+       $body .="From:".$userName. "\n\n";
+       $body .="Email:".$userEmail. "\n\n";
+       $body .="Message:".$message. "\n\n";
+
+       mail($to, $body);
+
+       $message_sent = true;
     }
     
-//submit the form
 
-$userName = $_POST['name'];
-$userEmail = $_POST['email'];
-$message = $_POST['message'];
-
-
-$to = "deyanoklaasen@outlook.com";
-$body = "";
-
-$body .="From:".$userName. "\n\n";
-$body .="Email:".$userEmail. "\n\n";
-$body .="Message:".$message. "\n\n";
-
-mail($to, $body);
 }
 
 
