@@ -332,10 +332,18 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
             <!-- Contact Us Section -->
             <div id="contact" class="contact-section container">
 
+            <?php
+              if(message_sent);
+            ?>
+               <p>Thanks, we'll be in touch</p>
+            <?php
+            ?>
+
                 <div data-aos="fade-up" class="contact-header">
                     <h3 class="h3-title">Contact Us</h3>
                     <p>Send us a message to get started on your next project.<br>We look forward to working with you.</p>
                 </div>
+
 
                 <form data-aos="fade-up" action="index.php" method="post">
                     <div class="input-container">
