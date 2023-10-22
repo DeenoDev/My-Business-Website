@@ -1,5 +1,9 @@
 <?php
 
+echo "<pre>";
+print_r($_POST);
+echo "</pre>";
+
 $userName = $_POST['name'];
 $userEmail = $_POST['email'];
 $message = $_POST['message'];
@@ -11,6 +15,8 @@ $body = "";
 $body .="From:".$userName. "\n\n";
 $body .="Email:".$userEmail. "\n\n";
 $body .="Message:".$message. "\n\n";
+
+mail($to, $body);
 
 ?>
 
