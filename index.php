@@ -1,10 +1,9 @@
 <?php
 
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
+if(isset($_POST['email']) && $_POST['email'] != '') {
+    //submit the form
 
-$userName = $_POST['name'];
+    $userName = $_POST['name'];
 $userEmail = $_POST['email'];
 $message = $_POST['message'];
 
@@ -17,6 +16,9 @@ $body .="Email:".$userEmail. "\n\n";
 $body .="Message:".$message. "\n\n";
 
 mail($to, $body);
+}
+
+
 
 ?>
 
