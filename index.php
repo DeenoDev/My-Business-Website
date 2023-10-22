@@ -301,7 +301,7 @@
                     <p>Send us a message to get started on your next project.<br>We look forward to working with you.</p>
                 </div>
 
-                <form data-aos="fade-up" action="contactform.php" method="post">
+                <form data-aos="fade-up" action="index.php" method="post">
                     <div class="input-container">
                         <label for="name">Name</label>
                         <input type="text" placeholder="Your Name" name="name" required>
