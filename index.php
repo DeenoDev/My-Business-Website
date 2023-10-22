@@ -5,6 +5,13 @@ $userEmail = $_POST['email'];
 $message = $_POST['message'];
 
 
+$to = "deyanoklaasen@outlook.com";
+$body = "";
+
+$body .="From:".$userName. "\n\n";
+$body .="Email:".$userEmail. "\n\n";
+$body .="Message:".$message. "\n\n";
+
 ?>
 
 
