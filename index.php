@@ -20,7 +20,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
        $body .="Email:".$userEmail. "\n\n";
        $body .="Message:".$message. "\n\n";
 
-       mail($to, $body);
+    //    mail($to, $body);
 
        $message_sent = true;
     }
