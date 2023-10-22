@@ -336,10 +336,11 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                     <p>Send us a message to get started on your next project.<br>We look forward to working with you.</p>
                 </div>
 
-                <?php
-              if(message_sent);
+            <?php
+              if($message_sent):
             ?>
                <p>Thanks, we'll be in touch</p>
+
             <?php
             else: 
             ?>
