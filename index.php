@@ -332,7 +332,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
             <?php
               if($message_sent):
             ?>
-               <p id="thanks">Message Sent!</p>
+               <p class="thanks">Message Sent!</p>
 
             <?php
             else: 
@@ -347,7 +347,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
             <?php
               if($message_sent):
             ?>
-               <p id="thanks">Thanks, we'll be in touch</p>
+               <p class="thanks thanks-margin">Thanks, we'll be in touch.</p>
 
             <?php
             else: 
@@ -413,7 +413,6 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="//unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
-    
     <script src="main.js"></script>
     <script src="menu.js"></script>
     
