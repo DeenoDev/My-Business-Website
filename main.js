@@ -5,7 +5,7 @@ const slider = new A11YSlider(document.querySelector('.slider'), {
   infinite: true,
   autoplay: true,
   autoplaySpeed: 1000,
-  autoplayHoverPause: true,
+  autoplayHoverPause: false,
   // responsive: {
   //   768: {
   //     slidesToShow: 2,
