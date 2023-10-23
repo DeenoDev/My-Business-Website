@@ -405,7 +405,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
     <footer class="footer">
 
-        <p>All rights reserved. Copyrights Ethereos.co.za</p>
+        <p>All rights reserved. Ethereos.co.za</p>
 
     </footer>
     
