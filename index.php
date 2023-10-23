@@ -332,7 +332,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
             <?php
               if($message_sent):
             ?>
-               <p class="thanks">Message Sent!</p>
+               <p id="thanks">Message Sent!</p>
 
             <?php
             else: 
@@ -347,7 +347,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
             <?php
               if($message_sent):
             ?>
-               <p class="thanks">Thanks, we'll be in touch</p>
+               <p id="thanks">Thanks, we'll be in touch</p>
 
             <?php
             else: 
@@ -401,13 +401,6 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
 
             </div>
-
-            <!-- <div class="newsletter container">
-                <p>Subscribe to our newsletter to keep up to date with latest developments regarding our products and services.</p>
-                <div class="newsletter-field">
-                <input type="email">
-                <button class="contact-btn btn-9" type="submit">Subscribe</button>
-            </div> -->
     </main>
 
     <footer class="footer">
