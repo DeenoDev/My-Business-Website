@@ -21,15 +21,11 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
        $body .="Message:".$message. "\n\n";
 
     //    mail($to, $body);
-
-       $message_sent = true;
+       
+       $message_sent = true; 
+        
     }
-    
-
 }
-
-
-
 ?>
 
 
@@ -345,7 +341,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
             else: 
             ?>
 
-                <form data-aos="fade-up" action="index.php" method="post">
+                <form data-aos="fade-up" action="index.php#contact" method="post">
                     <div class="input-container">
                         <label for="name">Name</label>
                         <input type="text" placeholder="Your Name" name="name" required>
@@ -354,8 +350,8 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                         <label for="message">Message</label>
                         <textarea name="message" placeholder="I am interested in your services" id="message" cols="30" rows="7" required></textarea>  
                     </div>
-                    <button class="contact-btn btn-9" type="submit" name="submit"><a href="">Send</a></button>
-                </form>
+                    <button class="contact-btn btn-9" type="submit" name="submit" onclick="window.location.href='#contact';">Send</button>
+                    </form>
             <?php
             endif;
             ?>
