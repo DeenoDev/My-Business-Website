@@ -723,6 +723,12 @@ form textarea{
     padding-top: 1.8rem;
 }
 
+.thanks{
+    font-weight: bold !important;
+    font-size: 3rem !important;
+}
+
+
 /* Contact Detail Block */
 .contact-block{
     display: flex;
