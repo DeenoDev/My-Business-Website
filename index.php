@@ -51,7 +51,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
     <nav class="mobile-navigation">
         <header class="navbar container">
             <div class="logo">
-                <h3>Ethereos</h3>
+                <h3>OmniWeb</h3>
             </div>
         </header>
         <nav class="mobile-nav-links">
@@ -68,7 +68,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
     <header class="navbar container">
         <div class="logo">
-            <h3>Ethereos</h3>
+            <h3>OmniWeb</h3>
         </div>
         <nav class="desktop-nav">
             <ul>
@@ -89,9 +89,9 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
         <div class="hero-container container">
             <div class="hero-text">
-                <h2>Welcome to <span class="hero-span">Ethereos</span> Web Solutions</h2>
+                <h2>Welcome to <span class="hero-span">OmniWeb</span> Digital Solutions</h2>
                 <br>
-                <p>Take your business to the next level with our high quality services.</p>
+                <p>Launch your business into the digital age with our high quality services.</p>
                 <br>
                 <a href="#contact"><button class="contact-btn btn-9">Contact</button></a>
             </div>
