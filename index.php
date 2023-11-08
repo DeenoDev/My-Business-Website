@@ -385,7 +385,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                             <p>Facebook</p>
                         </div>
                         <div data-aos="fade-left" class="contact-block">
-                        <a href=""><img src="assets/square-github.svg" alt="github"></a>
+                        <a href="https://github.com/DeenoDev"><img src="assets/square-github.svg" alt="github"></a>
                             <p>Github</p>
                         </div>
                         
