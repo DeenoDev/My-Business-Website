@@ -40,7 +40,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Ethereos Marketing</title>
+    <title>OmniWeb</title>
     <link rel="stylesheet" href="//unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
