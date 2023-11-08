@@ -95,13 +95,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                 <br>
                 <a href="#contact"><button class="contact-btn btn-9">Contact</button></a>
             </div>
-            <!-- <div class="hero-image">
-                <img src="" alt="hero image">
-                
-            </div> -->
         </div>
-    
- 
 
         <div id="about" class="about-container container">
             
@@ -379,9 +373,8 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                             <p>+27 73 650 3639</p>
                         </div>
                         <div data-aos="fade-left" class="contact-block">
-                            <img src="assets/envelope-solid.svg" alt="email">
-                            <p>info@ethereos.co.za</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                            <a href="#contact"><img src="assets/envelope-solid.svg" alt="email"></a>
+                            <p>info@omni-web.co.za</p>
                         </div>
                         <div data-aos="fade-right" class="contact-block">
                             <img src="assets/square-instagram.svg" alt="instagram">
@@ -405,7 +398,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
     <footer class="footer">
 
-        <p>All rights reserved. Ethereos.co.za</p>
+        <p>All rights reserved. omni-web.co.za</p>
 
     </footer>
     
