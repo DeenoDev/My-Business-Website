@@ -365,11 +365,11 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="contact-info-section">
                     <div class="contact-details">
                         <div data-aos="fade-right" class="contact-block">
-                            <img src="assets/square-phone-solid.svg" alt="phone">
+                        <a href=""><img src="assets/square-phone-solid.svg" alt="phone"></a>
                             <p>+27 73 650 3639</p>
                         </div>
                         <div data-aos="fade-down" class="contact-block">
-                            <img src="assets/square-whatsapp.svg" alt="whatsapp">
+                            <a href=""><img src="assets/square-whatsapp.svg" alt="whatsapp"></a>
                             <p>+27 73 650 3639</p>
                         </div>
                         <div data-aos="fade-left" class="contact-block">
@@ -377,15 +377,15 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                             <p>info@omni-web.co.za</p>
                         </div>
                         <div data-aos="fade-right" class="contact-block">
-                            <img src="assets/square-instagram.svg" alt="instagram">
+                        <a href=""><img src="assets/square-instagram.svg" alt="instagram"></a>
                             <p>Instagram</p>
                         </div>
                         <div data-aos="fade-up" class="contact-block">
-                            <img src="assets/square-facebook.svg" alt="facebook">
+                        <a href=""><img src="assets/square-facebook.svg" alt="facebook"></a>
                             <p>Facebook</p>
                         </div>
                         <div data-aos="fade-left" class="contact-block">
-                            <img src="assets/square-github.svg" alt="github">
+                        <a href=""><img src="assets/square-github.svg" alt="github"></a>
                             <p>Github</p>
                         </div>
                         
