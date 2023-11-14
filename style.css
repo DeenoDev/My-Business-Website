@@ -69,7 +69,7 @@ header{
 
 .sticky {
     position: fixed;
-    top: 0;
+    top: 0px;
 }
 
 .logo h3{
@@ -170,6 +170,11 @@ header{
 } */
 
 /* Desktop Mobile Navigation */
+nav {
+    position: sticky;
+    top: 0px;
+}
+
 nav ul{
     font-size: 1.2rem;
     font-family: var(--ff-headers);

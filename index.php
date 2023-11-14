@@ -411,6 +411,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
     <script src="//unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
     <script src="main.js"></script>
     <script src="menu.js"></script>
+    <script src="stickynav.js"></script>
     
 </body>
 </html>
