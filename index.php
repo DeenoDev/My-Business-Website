@@ -68,7 +68,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
     </nav>
 
 
-    <header class="navbar container">
+    <header id="navbar" class="navbar container">
         <div class="logo">
             <h3>OmniWeb</h3>
         </div>
