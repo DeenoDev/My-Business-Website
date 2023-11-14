@@ -102,12 +102,13 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
         <div id="about" class="about-container container">
             
             
-            <div class="about-text">
+            <div data-aos="fade-right" class="about-text">
                 <h3 data-aos="fade-right" class="h3-about">About Us</h3>
                 <br>
                 <p data-aos="fade-right" class="about-intro">A highly creative team in technical and design solutions.</p>
                 <br>
-                <p class="about-description" data-aos="fade-right">Empowering individuals and businesses to develop their ideas and expand them with the highest standards that compete with the largest competitors in their fields, using the most advanced and latest technologies with optimized performance, security, cost and experience.</p></div>
+                <p class="about-description" data-aos="fade-right">Empowering individuals and businesses to develop their ideas and expand them with the highest standards that compete with the largest competitors in their fields, using the most advanced and latest technologies with optimized performance, security, cost and experience.</p>
+            </div>
                 <div data-aos="fade-left" class="about-image">
                     <img class="about-pseudo" src="assets/about.svg" alt="about us image">
                 </div>

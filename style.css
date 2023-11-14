@@ -64,6 +64,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
 }
 
 .logo h3{
@@ -196,6 +202,7 @@ nav ul li{
 
 .navbar{
     margin-top: 2.2rem;
+    
 }
 
 @media (max-width: 48rem){
