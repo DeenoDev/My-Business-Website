@@ -1182,4 +1182,11 @@ h3{
     
   }
 
+  /* background svgs */
+
+#polygon-bg img {
+    position: absolute;
+    top: 0;
+  }
+
 

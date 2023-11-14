@@ -12,6 +12,8 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
        $userEmail = $_POST['email'];
        $message = $_POST['message'];
 
+       $subject = 'omniweb';
+
 
        $to = "deyanoklaasen@outlook.com";
        $body = "";
@@ -20,7 +22,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
        $body .="Email:".$userEmail. "\n\n";
        $body .="Message:".$message. "\n\n";
 
-    //    mail($to, $body);
+       mail($to, $subject, $body);
        
        $message_sent = true; 
         
@@ -99,6 +101,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
         <div id="about" class="about-container container">
             
+            
             <div class="about-text">
                 <h3 data-aos="fade-right" class="h3-about">About Us</h3>
                 <br>
@@ -108,8 +111,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                 <div data-aos="fade-left" class="about-image">
                     <img class="about-pseudo" src="assets/about.svg" alt="about us image">
                 </div>
-            </div> 
-            
+            </div>
         </div>       
               
 
