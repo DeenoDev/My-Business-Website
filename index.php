@@ -376,7 +376,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                             <p>+27 83 881 2184</p>
                         </div>
                         <div data-aos="fade-left" class="contact-block">
-                            <a href="#contact"><img src="assets/envelope-solid.svg" alt="email"></a>
+                            <a href="mailto:info@omni-web.co.za?"><img src="assets/envelope-solid.svg" alt="email"></a>
                             <p>info@omni-web.co.za</p>
                         </div>
                         <div data-aos="fade-right" class="contact-block">
