@@ -372,7 +372,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
                             <p>+27 73 650 3639</p>
                         </div>
                         <div data-aos="fade-down" class="contact-block">
-                            <a href=""><img src="assets/square-whatsapp.svg" alt="whatsapp"></a>
+                            <a href="https://wa.me/27838812184?text=Hello.%20I'm%20interested%20in%20your%20services."><img src="assets/square-whatsapp.svg" alt="whatsapp"></a>
                             <p>+27 73 650 3639</p>
                         </div>
                         <div data-aos="fade-left" class="contact-block">
