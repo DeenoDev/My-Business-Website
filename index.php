@@ -364,9 +364,8 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
             <?php
             endif;
             ?>
-
-                <div class="contact-info-section">
                 <p>Click the icons below for alternative contact options.</p>
+                <div class="contact-info-section">
                     <div class="contact-details">
                         <div data-aos="fade-right" class="contact-block">
                         <a href="tel:+27 83 881 2184"><img src="assets/square-phone-solid.svg" alt="phone"></a>
