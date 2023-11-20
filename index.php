@@ -15,14 +15,14 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
        $subject = 'omniweb';
 
 
-       $to = "deyanoklaasen@outlook.com";
+       $to = "info@omni-web.co.za";
        $body = "";
 
        $body .="From:".$userName. "\n\n";
        $body .="Email:".$userEmail. "\n\n";
        $body .="Message:".$message. "\n\n";
 
-    //    mail($to, $subject, $body);
+       mail($to, $subject, $body);
        
        $message_sent = true; 
         
