@@ -53,7 +53,8 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
     <nav class="mobile-navigation">
         <header class="navbar container">
             <div class="logo">
-                <h3>OmniWeb</h3>
+                <!-- <h3>OmniWeb</h3> -->
+                <img class="omniweb-logo" src="assets/omniweb-logo.png" alt="omniweb logo" style="width:50%; height:auto; margin-top:20px;">
             </div>
         </header>
         <nav class="mobile-nav-links">
