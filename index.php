@@ -71,7 +71,7 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
     <header id="navbar" class="navbar container">
         <div class="logo">
             <!-- <h3>OmniWeb</h3> -->
-            <img src="assets/omniweb-logo.png" alt="omniweb logo">
+            <img class="omniweb-logo" src="assets/omniweb-logo.png" alt="omniweb logo" style="width:60%; height:auto;">
         </div>
         <nav class="desktop-nav">
             <ul>
