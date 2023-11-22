@@ -51,7 +51,6 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
     <nav class="mobile-navigation">
         <header class="navbar container">
             <div class="logo">
-                <!-- <h3>OmniWeb</h3> -->
                 <img class="omniweb-logo" src="assets/omniweb-logo.png" alt="omniweb logo" style="width:50%; height:auto; margin-top:20px;">
             </div>
         </header>
@@ -69,7 +68,6 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 
     <header id="navbar" class="navbar container">
         <div class="logo">
-            <!-- <h3>OmniWeb</h3> -->
             <img class="omniweb-logo" src="assets/omniweb-logo.png" alt="omniweb logo" style="width:60%; height:auto;">
         </div>
         <nav class="desktop-nav">
