@@ -30,8 +30,6 @@ if(isset($_POST['email']) && $_POST['email'] != '') {
 }
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
